@@ -2,7 +2,7 @@ body {
   background-color: Black;
   text-align: center;
 }
-h1 h2 a {
+h1, h2, a {
   font-family: Verdana;
   color: White;
 }
@@ -10,14 +10,17 @@ h1 h2 a {
   color: Aquamarine;
   font-size: 16px;
 }
-.cta-text {
-  font-weight: 300;
-  font-size: 42px;
+#copyright {
+  text-align: right;
 }
-.main {
+#main {
   font-weight: normal;
   font-size: 50px;
   text-align: center;
+}
+#support {
+  font-weight: 300;
+  font-size: 42px;
 }
 p {
   font-size: 21px;
